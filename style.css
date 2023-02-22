@@ -105,11 +105,11 @@ li::before {
 	margin-left: -1em;
 }
 
-form::focus
+form
 {
 	text-align: right;
 	padding: 20px;
-	background-color: #FD6585;
+	
 }
 footer {
 	background-color: #853838;
