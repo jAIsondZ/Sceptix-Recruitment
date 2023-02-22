@@ -36,3 +36,6 @@ const content5 = expandable5.querySelector('.content5');
 expandable5.addEventListener('click', function() {
   expandable5.classList.toggle('active');
 });
+
+
+

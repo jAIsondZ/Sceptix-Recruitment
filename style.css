@@ -39,11 +39,12 @@ header h1 {
 }
 
 main {
-	text-align: center;
+	text-align: left;
 	padding: 20px;
-	background-color:#FFD3A5;
+	background-color: #FFD3A5;
 	color: #FD6585
 }
+
 
 ul {
 	list-style: none;
@@ -90,6 +91,9 @@ ul {
 	display: block;
   }
   
+
+  
+  
   
 
 li::before {
@@ -101,9 +105,15 @@ li::before {
 	margin-left: -1em;
 }
 
+form::focus
+{
+	text-align: right;
+	padding: 20px;
+	background-color: #FD6585;
+}
 footer {
 	background-color: #853838;
 	color: #ab5858;
-	padding: 20px;
+	padding: 60px;
 	text-align: center;
 }
